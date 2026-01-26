@@ -10,5 +10,4 @@ test.describe('solvative homepage', () => {
       'Solvative | Driving Innovation with Full-Stack Solutions'
     );
   });
-  test()
 });
