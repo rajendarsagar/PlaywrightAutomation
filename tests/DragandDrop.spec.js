@@ -1,6 +1,6 @@
 import {test, expect} from '@playwright/test';
 
-test.only('Darg And Drop', async({page})=>{
+test('Darg And Drop', async({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/');
 
