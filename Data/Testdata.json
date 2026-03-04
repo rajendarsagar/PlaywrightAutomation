@@ -1,7 +1,27 @@
 [
-  {"userName": "student", "password": "Password123", "type": "Valid"},
-  {"userName": "user1", "password": "password1", "type": "Invalid"},
-  {"userName": "user2", "password": "password2", "type": "Invalid"},
-  {"userName": "user3", "password": "password3", "type": "Invalid"},
-  {"userName": "user4", "password": "password4", "type": "Invalid"}
+    {
+        "userName": "student",
+        "password": "Password123",
+        "type": "Valid"
+    },
+    {
+        "userName": "user1",
+        "password": "password1",
+        "type": "Invalid"
+    },
+    {
+        "userName": "user2",
+        "password": "password2",
+        "type": "Invalid"
+    },
+    {
+        "userName": "user3",
+        "password": "password3",
+        "type": "Invalid"
+    },
+    {
+        "userName": "user4",
+        "password": "password4",
+        "type": "Invalid"
+    }
 ]
