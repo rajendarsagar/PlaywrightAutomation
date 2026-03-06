@@ -3,6 +3,10 @@ const path = require('path');
 
 test('Full Page Screenshot', async ({ page }) => {
     await page.goto('https://www.amazon.in/');
+    const continueShoppingButton = page.getByRole('button', { name: 'Continue shopping' });
+    if (await continueShoppingButton.isVisible()) {
+        await continueShoppingButton.click();
+    }
     await expect(page.getByLabel('Amazon.in', { exact: true })).toBeVisible();
     //await page.waitForLoadState('domcontentloaded',{timeout:5000});
     const filepath = path.join(__dirname, "../Screenshots/Fullpage.png");
