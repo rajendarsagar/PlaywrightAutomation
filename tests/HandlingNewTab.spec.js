@@ -35,6 +35,7 @@ test('Handling New Tab ', async ({ context }) => {
         context.waitForEvent('page'),
         page.getByRole('button', { name: 'New Tab' }).click()
     ])
+    await newPage.waitForLoadState('domcontentloaded');
     const title = await newPage.title();
     console.log(title);
 

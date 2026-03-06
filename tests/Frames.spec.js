@@ -8,7 +8,7 @@ test('First Frame Handling', async({page})=> {
     const textbox = frame1.getByText('Your content goes here.', { exact : true });
     await expect(textbox).toBeVisible();
     //await page.waitForTimeout(2000);
-    await textbox.fill('Welcome to Playwright');
+    //await textbox.fill('Welcome to Playwright'); // restriction from website need premium account to fill the text box.
 
 
 
