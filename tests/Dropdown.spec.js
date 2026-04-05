@@ -26,7 +26,7 @@ test('Select Dropdown', async ({ page }) => {
 
 })
 
-test.only('Multi select', async ({page}) => {
+test('Multi select', async ({page}) => {
 
     await page.setViewportSize({width: 1920 , height: 1080, });
     await page.goto('https://testautomationpractice.blogspot.com/');
