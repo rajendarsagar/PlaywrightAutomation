@@ -10,7 +10,6 @@ test('Shadow DOM Text Field', async({page})=>{
     await shadowHost.locator("input[type='text']").fill('Test Automation');
     expect(await shadowHost.locator("input[type='text']").inputValue()).toBe('Test Automation');
 
-    await page.pause();
 
 
 
