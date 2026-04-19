@@ -20,7 +20,6 @@ test('Shadow DOM Check Box', async({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/');
     await page.waitForLoadState('load');
-   // await page.waitForLoadState('');
 
     const shadowHost = page.locator('#shadow_host');
     await expect(shadowHost).toBeVisible();
